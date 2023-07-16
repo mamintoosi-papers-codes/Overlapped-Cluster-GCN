@@ -6,7 +6,7 @@
 #    BSD license.
 #    This repository is based on Cluster-GCN
 import torch
-from parser import parameter_parser
+from my_parser import parameter_parser
 from clustering import ClusteringMachine
 from clustergcn import ClusterGCNTrainer
 from utils import tab_printer, dataset_reader
