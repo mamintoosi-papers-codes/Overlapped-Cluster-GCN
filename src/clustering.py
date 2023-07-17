@@ -26,6 +26,7 @@ class ClusteringMachine(object):
         self.features = features
         self.target = target
         self._set_sizes()
+        self.clusters = []
 
     def _set_sizes(self):
         """
